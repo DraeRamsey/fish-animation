@@ -42,5 +42,88 @@ footer{
 /* main/footer */
 
 /* fish */
+  #container{
+   z-index: 10;
+    height: 0%;
+    width: 100%;
+    background-color: #00C4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: bottom;
+  }
+
+  #fish-box{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top:30%;
+  }
+
+  #fish-body{
+    z-index: 3;
+    height: 165px;
+    width: 200px;
+    background: rgb(255,187,0);
+    background: linear-gradient(344deg, rgba(255,187,0,1) 63%, rgba(255,255,255,1) 100%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #back-fin{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border-right: 30px solid orange;
+    border-radius: 35%;
+    left: -105%;
+  }
+
+  .fish-eye {
+   height: 65px;
+   width: 55px;
+   background-color: white;
+   border-radius: 100%;
+   margin: 0 5px 0 5px ;
+   position: relative;
+  }
+
+  .fish-pupil{
+    background-color: black;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+  }
+
+  #fin-left{
+  position: absolute;
+  left: 25%;
+  bottom: -20%;
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  background: rgb(255,165,0);
+  background: linear-gradient(3deg, rgba(255,165,0,1) 0%, rgba(218,130,0,1) 100%);
+  border-radius: 100% 46% 100% 0% / 100% 0% 100% 0%;
+  }
+
+  #fin-right{
+  position: absolute;
+  left: 58%;
+  bottom: -20%;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  background: rgb(255,165,0);
+  background: linear-gradient(3deg, rgba(255,165,0,1) 0%, rgba(218,130,0,1) 100%);
+  border-radius: 0% 100% 0% 100% / 0% 100% 46% 100% ;
+  }
 
 /* fish */
